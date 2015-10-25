@@ -13,7 +13,7 @@
 	<p>Where: Meet at the bottom of the triple </p>
 	<p>Why: It's required!(Donuts also available) </p>
 
-<%= @reservations.each do |reservation| %>
+<% @reservations.each do |reservation| %>
 	  <div class="booyah-box col-xs-10 col-xs-offset-1">
 		<h2><% reservation.name %></h2>
 		<h2><% reservation.date %></h2>
