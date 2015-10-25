@@ -9,6 +9,7 @@ h1 {
 	font-family: 'Indie Flower', cursive;
 	font-weight: 10;
 	font-size: 50px;
+	margin-left: 20px;
 }
 
 h2, h3 {
@@ -16,28 +17,37 @@ h2, h3 {
 	font-family: 'Indie Flower', cursive;
 	font-weight: 25;
 	font-size: 30px;
+	margin: 10px 25px 10px 25px;
 }
 
 li {
+	color: #050204;
 	font-family: 'Indie Flower', cursive;
 	font-size: 20px;
 }
 
-p	{
-	font-size: 25px;
+p  {
+	color: #050204;
+	font-size: 20px;
 	font-family: 'Indie Flower', cursive;
+	margin: 25px 75px 25px 75px;
+}
+
+h4 {
+	color: #050204;
 }
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  margin-top:10px;
-  margin-bottom:15px;
-  padding:20px;
+  background: #BDE5F2;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 5px; 
+  margin-bottom: 15px;
+  padding:10px;
 }
 
 .navbar.navbar-inverse {

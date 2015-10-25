@@ -13,10 +13,11 @@
 	<p>Where: Meet at the bottom of the triple </p>
 	<p>Why: It's required!(Donuts also available) </p>
 
+<h2><u> See who is coming </u></h2>
 <% @reservations.each do |reservation| %>
-	  <div class="booyah-box col-xs-10 col-xs-offset-1">
-		<h2><% reservation.name %></h2>
-		<h2><% reservation.date %></h2>
-		<h2><% reservation.mode %></h2>
+	<div class="booyah-box col-xs-12 col-sm-6">
+		<h4><%= reservation.name %></h4>
+		<h4><%= reservation.date %></h4>
+		<h4><%= reservation.mode %></h4>
 	</div>
 <% end %>
